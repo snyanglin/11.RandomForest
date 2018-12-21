@@ -10,7 +10,7 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import PolynomialFeatures
 
-
+#这是更新后的代码
 def f(x):
     return 0.5*np.exp(-(x+3) ** 2) + np.exp(-x**2) + 1.5*np.exp(-(x-3) ** 2)
 
